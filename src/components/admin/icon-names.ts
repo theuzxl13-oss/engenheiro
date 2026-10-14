@@ -1,0 +1,23 @@
+/** Ícones disponíveis para serviços (ver `SERVICE_ICONS`), com rótulo em português. */
+export const SERVICE_ICON_OPTIONS = [
+  { value: "Compass", label: "Compasso (consultoria)" },
+  { value: "PencilRuler", label: "Lápis e régua (projetos)" },
+  { value: "FolderKanban", label: "Quadro (gestão)" },
+  { value: "HardHat", label: "Capacete (obras)" },
+  { value: "ClipboardCheck", label: "Prancheta (vistorias)" },
+  { value: "FileText", label: "Documento (laudos)" },
+  { value: "Leaf", label: "Folha (sustentabilidade)" },
+  { value: "Building2", label: "Edifício" },
+  { value: "Construction", label: "Construção" },
+  { value: "Factory", label: "Indústria" },
+  { value: "Zap", label: "Energia elétrica" },
+  { value: "Lightbulb", label: "Lâmpada (inovação)" },
+  { value: "Droplets", label: "Gotas (hidráulica)" },
+  { value: "Gauge", label: "Medidor (desempenho)" },
+  { value: "Cpu", label: "Processador (automação)" },
+  { value: "Network", label: "Rede (telecom)" },
+  { value: "Layers", label: "Camadas (estruturas)" },
+  { value: "Mountain", label: "Montanha (geotecnia)" },
+  { value: "ShieldCheck", label: "Escudo (segurança)" },
+  { value: "Wrench", label: "Chave (manutenção)" },
+] as const;
