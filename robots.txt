@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://theuzxl13-oss.github.io/engenheiro/sitemap.xml
